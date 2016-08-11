@@ -124,7 +124,7 @@ void ftp_protocol(int conn_sock){
 		handle_command(conn_sock, buff);
 	}
 	//sscanf(buff, "%s", command);
-	printf("closing...\n");
+	printf("closing....\n");
 	close(conn_sock);
 }
 
